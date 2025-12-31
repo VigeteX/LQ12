@@ -1,0 +1,41 @@
+# Node modules
+node_modules/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Playwright
+playwright/.cache/
+playwright/test-results/
+playwright/screenshots/
+playwright/videos/
+playwright/traces/
+
+# Cypress
+cypress/videos/
+cypress/screenshots/
+cypress/reports/
+cypress/.nyc_output/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Env files
+.env
+.env.local
+.env.*.local
+
+# IDE files
+.vscode/
+.idea/
+
+# Package lock
+package-lock.json
+yarn.lock
+
+# Other
+*.tmp
+*.log
